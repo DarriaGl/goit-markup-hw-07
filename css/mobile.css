@@ -1,0 +1,30 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+  .main-head {
+    font-size: 36px;
+    max-width: 320px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-sectn {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+
+  .mob-sours-list {
+    gap: 40px;
+  }
+  .mob-address-tel {
+    font-size: 36px;
+  }
+  .modal {
+    width: 392px;
+  }
+}
